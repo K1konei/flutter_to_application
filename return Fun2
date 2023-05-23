@@ -1,0 +1,23 @@
+void main (){
+  var result1 = mul1(55,3);
+  var result2 = mul2(85,4);
+  var result3 = mul3(21,99);
+  
+  print("$result1, $result2, $result3");
+}
+
+
+mul1(x1,x2){
+  return x1 * x2;
+  //print("mul1: $result1");
+}
+
+mul2(int x1, int x2){
+  return x1 * x2;
+  //print("mul2: $result2");
+}
+
+mul3(int x1, int x2){
+  return x1 * x2;
+  //print("mul3: $result3");
+}
