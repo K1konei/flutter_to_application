@@ -1,0 +1,10 @@
+void main() {
+
+  const tmp1 = 5;
+  const tmp2 = 6;
+  final tmp3 = tmp1; //final สามารถคลุม const ได้
+  final tmp4 = tmp3; //final สามารถคลุม final ได้
+  const tmp5 = tmp1; //const สามารถคลุม const ได้ แต่ const ไม่สามารถคลุม final ได้
+  
+  print("$tmp1, $tmp2, $tmp3, $tmp4, $tmp5");
+}
