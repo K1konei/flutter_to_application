@@ -1,0 +1,19 @@
+void main(){
+  var result1 = sum1(1,2);
+  var result2 = sum2(3,4);
+  var result3 = sum3(5,6);
+  var result4 = sum4(7,8);
+  
+  print("$result1,$result2,$result3,$result4");
+}
+
+sum1(x1,x2){
+  return x1 + x2;
+}
+
+sum2(x1,x2){
+  return x1 +x2;
+}
+
+sum3(int x1,int x2) => x1 + x2;
+sum4(x1,x2) => x1 + x2;
