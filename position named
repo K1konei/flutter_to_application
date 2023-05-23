@@ -1,0 +1,9 @@
+void main() {
+  mul1(x2: 52, x1: 29);
+}
+
+void mul1({int x1, int x2}){
+  var result = x1 * x2;
+  print("mul1: $result");
+}
+//runไม่ออกได้ไง!!?
