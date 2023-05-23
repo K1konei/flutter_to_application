@@ -1,0 +1,7 @@
+void main(){
+  var k1 = "K-one";
+  var k2 = 2000;
+  var k3 = true;
+  
+  print("$k1, $k2, $k3");
+}
