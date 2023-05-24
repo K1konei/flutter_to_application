@@ -1,0 +1,9 @@
+void main(){
+  ans1(3); //ไม่กำหนดค่า x2
+}
+
+void ans1([x1=0,x2=0]){ //parameter ให้ค่า x2=0
+  var result = x1 * x2;
+  print("variable: x1=$x1, x2=$x2"); //x1=3 , x=0
+  print("ans1: $result");
+}
